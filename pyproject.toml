@@ -1,0 +1,30 @@
+[project]
+name = "shelby"
+version = "0.1.0"
+description = "AI-powered natural language terminal assistant"
+authors = [
+    { name = "Shushank", email = "shushankpawar664@gmail.com" }
+]
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "prompt-toolkit>=3.0.0",
+    "httpx>=0.24.0",
+    "tomli-w>=1.0.0",
+    "keyring>=24.0.0",
+]
+requires-python = ">=3.11"
+
+[project.scripts]
+shelby = "shelby.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["shelby*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
