@@ -8,7 +8,7 @@ Shelby is a safety-first, AI-powered natural language terminal assistant. It tra
 ---
 
 ### Demo
-![Shelby Demo](demo/demo.gif)
+![Shelby Demo](demo/demo-2.gif)
 
 ---
 
@@ -87,6 +87,7 @@ Shelby classifies every command into one of three risk tiers to prevent accident
 ---
 
 ### Advanced Features
+![Shelby Demo](demo/demo.gif)
 
 - **Explain**: Break down any existing command without running it.
   ```bash
@@ -100,6 +101,7 @@ Shelby classifies every command into one of three risk tiers to prevent accident
   ```bash
   shelby history "how did I list those docker images?"
   ```
+  
 
 ---
 
