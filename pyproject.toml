@@ -1,9 +1,18 @@
 [project]
-name = "shelby"
-version = "0.1.0"
+name = "shelby-ai"
+version = "0.1.1"
 description = "AI-powered natural language terminal assistant"
 authors = [
     { name = "Shushank", email = "shushankpawar664@gmail.com" }
+]
+readme = "README.md"
+keywords = ["ai", "cli", "terminal", "assistant", "shell", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Utilities",
 ]
 dependencies = [
     "click>=8.1.0",

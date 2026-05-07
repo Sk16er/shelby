@@ -161,7 +161,7 @@ def run_setup_wizard():
     
     default_model = "gpt-4o-mini"
     if provider == "anthropic": default_model = "claude-3-5-sonnet-20240620"
-    elif provider == "google": default_model = "gemini-1.5-flash"
+    elif provider == "google": default_model = "gemini-2.5-flash"
     elif provider == "ollama": default_model = "llama3"
     
     model = Prompt.ask(f"Enter model name", default=default_model)

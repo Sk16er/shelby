@@ -9,3 +9,4 @@ Requires-Dist: rich>=13.0.0
 Requires-Dist: prompt-toolkit>=3.0.0
 Requires-Dist: httpx>=0.24.0
 Requires-Dist: tomli-w>=1.0.0
+Requires-Dist: keyring>=24.0.0

@@ -18,7 +18,7 @@ Shelby is a safety-first, AI-powered natural language terminal assistant. It tra
 The easiest way to install Shelby is via pip:
 
 ```bash
-pip install shelby
+pip install shelby-ai
 ```
 
 If you are a developer and want to install it from source:
